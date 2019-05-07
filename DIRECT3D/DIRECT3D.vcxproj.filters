@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D">
+      <UniqueIdentifier>{95325988-a50f-4749-94ed-4d2bc5e60ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. WinMain">
+      <UniqueIdentifier>{0372496e-c8b8-43cb-b97e-239eda74f9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. MainGame">
+      <UniqueIdentifier>{4070dca2-43a1-435b-b595-ff0e466568bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\폰트">
+      <UniqueIdentifier>{325bf269-d2a6-4839-8936-25e0360c0394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\기즈모">
+      <UniqueIdentifier>{00c93867-d385-4516-bec3-0c9a787929f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\유틸">
+      <UniqueIdentifier>{0692eed3-8e21-43fb-ac01-5366053975eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\유틸\카메라">
+      <UniqueIdentifier>{7a7ad821-727a-4fd7-a0f7-39204cd3e105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\유틸\트랜스폼">
+      <UniqueIdentifier>{25d30188-5bdd-4682-b595-02fa78e9dc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\리소스">
+      <UniqueIdentifier>{97616600-27f4-414f-bb08-ff5909ba41b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\xMesh">
+      <UniqueIdentifier>{1fd2f27f-d96f-4d96-a416-9f794af868bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\광원">
+      <UniqueIdentifier>{1f27189a-7943-49d0-9436-f8c467511e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\바운드박스">
+      <UniqueIdentifier>{13869c4e-39b7-47e9-a2d3-cf58d731d7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\배이스오브젝트">
+      <UniqueIdentifier>{b6ef80f4-61b5-4ce8-a3a3-dcd361770a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\물리">
+      <UniqueIdentifier>{68557c88-101c-4d88-ac3a-fd969b47add4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\지형">
+      <UniqueIdentifier>{c6eba2f0-46d9-47f9-b687-96758a5f7138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\skinnedAnimation">
+      <UniqueIdentifier>{d685ba38-9854-4ed4-b51e-5acece2c618d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\절두체 컬링">
+      <UniqueIdentifier>{995727cc-ab3b-4ba0-a318-e109e2c668d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\스프라이트">
+      <UniqueIdentifier>{48361352-68e0-45bf-a0c1-90dbcc43b3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\파티클">
+      <UniqueIdentifier>{e7f55334-8f2d-4d9c-b5f7-fa03e2fb942a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal">
+      <UniqueIdentifier>{a0f6acc6-ce44-42fc-a267-ac7bacee9153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\매니저">
+      <UniqueIdentifier>{ddd54506-4884-4c46-8fc8-309b550e09a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\player">
+      <UniqueIdentifier>{5c74c036-e89d-44d5-898b-d01e7ef37d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene">
+      <UniqueIdentifier>{2fab1822-4e40-4968-a7cb-6ae4ad2e7195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\map">
+      <UniqueIdentifier>{a3baa3fc-f1bc-46a2-9f43-00921fddda7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\portalGun">
+      <UniqueIdentifier>{01aaf2a0-fc82-46f2-84aa-c36ee691cc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\object">
+      <UniqueIdentifier>{0cc5e10d-83b7-4c74-8aab-a4e25e91f605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene\튜토리얼1">
+      <UniqueIdentifier>{f856436d-4c1f-4536-a3a3-945f9ceaa171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene\튜토리얼2">
+      <UniqueIdentifier>{3561ad7b-21fe-4cfc-9616-59b0bebe30c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene\스테이지1">
+      <UniqueIdentifier>{304ef793-57fc-4cec-b93d-926bd03c4a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene\스테이지2">
+      <UniqueIdentifier>{0d65dd78-7103-4354-a64f-c079ed5c0e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene\스테이지3">
+      <UniqueIdentifier>{290e1857-3d12-4ed7-ad46-2e2f59890ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\object\laser">
+      <UniqueIdentifier>{659e6945-6798-40ca-a542-fce8f13d04d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene\메인">
+      <UniqueIdentifier>{55a8723d-c5d3-425e-a69f-0507511e67d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene\엔딩">
+      <UniqueIdentifier>{387374a7-2146-47e6-a6ee-f1ad61144a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\VMR9">
+      <UniqueIdentifier>{121bbfbe-6f23-42ef-9401-f943dab05360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portal\scene\메뉴">
+      <UniqueIdentifier>{4758a21d-9c65-415c-9022-204abab77156}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>00. WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>02. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>02. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="fontManager.h">
+      <Filter>01. GameFrameWork3D\폰트</Filter>
+    </ClInclude>
+    <ClInclude Include="gizmoManager.h">
+      <Filter>01. GameFrameWork3D\기즈모</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>01. GameFrameWork3D\유틸\카메라</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>01. GameFrameWork3D\유틸\트랜스폼</Filter>
+    </ClInclude>
+    <ClInclude Include="MYUTIL.h">
+      <Filter>01. GameFrameWork3D\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="resourceManager.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="rmShader.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="rmTexture.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="xMesh.h">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="xMeshStatic.h">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="rmStaticMesh.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClInclude>
+    <ClInclude Include="boundBox.h">
+      <Filter>01. GameFrameWork3D\바운드박스</Filter>
+    </ClInclude>
+    <ClInclude Include="boundSphere.h">
+      <Filter>01. GameFrameWork3D\바운드박스</Filter>
+    </ClInclude>
+    <ClInclude Include="baseObject.h">
+      <Filter>01. GameFrameWork3D\배이스오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="lightDirection.h">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClInclude>
+    <ClInclude Include="lightPoint.h">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClInclude>
+    <ClInclude Include="physicsManager.h">
+      <Filter>01. GameFrameWork3D\물리</Filter>
+    </ClInclude>
+    <ClInclude Include="quadTree.h">
+      <Filter>01. GameFrameWork3D\지형</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>01. GameFrameWork3D\지형</Filter>
+    </ClInclude>
+    <ClInclude Include="boneHierarchy.h">
+      <Filter>01. GameFrameWork3D\skinnedAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="skinnedAnimation.h">
+      <Filter>01. GameFrameWork3D\skinnedAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="xMeshSkinned.h">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="rmSkinnedMesh.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>01. GameFrameWork3D\절두체 컬링</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteManager.h">
+      <Filter>01. GameFrameWork3D\스프라이트</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>01. GameFrameWork3D\파티클</Filter>
+    </ClInclude>
+    <ClInclude Include="particleEmitter.h">
+      <Filter>01. GameFrameWork3D\파티클</Filter>
+    </ClInclude>
+    <ClInclude Include="quadParticle.h">
+      <Filter>01. GameFrameWork3D\파티클</Filter>
+    </ClInclude>
+    <ClInclude Include="quadParticleEmitter.h">
+      <Filter>01. GameFrameWork3D\파티클</Filter>
+    </ClInclude>
+    <ClInclude Include="deviceManager.h">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>portal\player</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorialMap.h">
+      <Filter>portal\map</Filter>
+    </ClInclude>
+    <ClInclude Include="portalGun.h">
+      <Filter>portal\portalGun</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>portal\object</Filter>
+    </ClInclude>
+    <ClInclude Include="switchButton.h">
+      <Filter>portal\object</Filter>
+    </ClInclude>
+    <ClInclude Include="boxDropper.h">
+      <Filter>portal\object</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>portal\object</Filter>
+    </ClInclude>
+    <ClInclude Include="door.h">
+      <Filter>portal\object</Filter>
+    </ClInclude>
+    <ClInclude Include="elevator.h">
+      <Filter>portal\object</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorialScene_1.h">
+      <Filter>portal\scene\튜토리얼1</Filter>
+    </ClInclude>
+    <ClInclude Include="portalBullet.h">
+      <Filter>portal\portalGun</Filter>
+    </ClInclude>
+    <ClInclude Include="portal.h">
+      <Filter>portal\portalGun</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorialMap2.h">
+      <Filter>portal\map</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorialScene_2.h">
+      <Filter>portal\scene\튜토리얼2</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>portal\map</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1Scene.h">
+      <Filter>portal\scene\스테이지1</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2Scene.h">
+      <Filter>portal\scene\스테이지2</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>portal\map</Filter>
+    </ClInclude>
+    <ClInclude Include="panelMover.h">
+      <Filter>portal\object</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>portal\map</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3Scene.h">
+      <Filter>portal\scene\스테이지3</Filter>
+    </ClInclude>
+    <ClInclude Include="portalHeader.h">
+      <Filter>portal</Filter>
+    </ClInclude>
+    <ClInclude Include="laser.h">
+      <Filter>portal\object\laser</Filter>
+    </ClInclude>
+    <ClInclude Include="laserCatcher.h">
+      <Filter>portal\object\laser</Filter>
+    </ClInclude>
+    <ClInclude Include="laserEmitter.h">
+      <Filter>portal\object\laser</Filter>
+    </ClInclude>
+    <ClInclude Include="laserPoint.h">
+      <Filter>portal\object\laser</Filter>
+    </ClInclude>
+    <ClInclude Include="mainScene.h">
+      <Filter>portal\scene\메인</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="endingScene.h">
+      <Filter>portal\scene\엔딩</Filter>
+    </ClInclude>
+    <ClInclude Include="VMR9Graph.h">
+      <Filter>01. GameFrameWork3D\VMR9</Filter>
+    </ClInclude>
+    <ClInclude Include="menuScene.h">
+      <Filter>portal\scene\메뉴</Filter>
+    </ClInclude>
+    <ClInclude Include="crosshair.h">
+      <Filter>portal\player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>00. WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>00. WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>02. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>02. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="fontManager.cpp">
+      <Filter>01. GameFrameWork3D\폰트</Filter>
+    </ClCompile>
+    <ClCompile Include="gizmoManager.cpp">
+      <Filter>01. GameFrameWork3D\기즈모</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>01. GameFrameWork3D\유틸\카메라</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>01. GameFrameWork3D\유틸\트랜스폼</Filter>
+    </ClCompile>
+    <ClCompile Include="MYUTIL.cpp">
+      <Filter>01. GameFrameWork3D\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="rmShader.cpp">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClCompile>
+    <ClCompile Include="rmTexture.cpp">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClCompile>
+    <ClCompile Include="xMeshStatic.cpp">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="rmStaticMesh.cpp">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClCompile>
+    <ClCompile Include="boundBox.cpp">
+      <Filter>01. GameFrameWork3D\바운드박스</Filter>
+    </ClCompile>
+    <ClCompile Include="boundSphere.cpp">
+      <Filter>01. GameFrameWork3D\바운드박스</Filter>
+    </ClCompile>
+    <ClCompile Include="baseObject.cpp">
+      <Filter>01. GameFrameWork3D\배이스오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="lightDirection.cpp">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClCompile>
+    <ClCompile Include="lightPoint.cpp">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClCompile>
+    <ClCompile Include="physicsManager.cpp">
+      <Filter>01. GameFrameWork3D\물리</Filter>
+    </ClCompile>
+    <ClCompile Include="quadTree.cpp">
+      <Filter>01. GameFrameWork3D\지형</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>01. GameFrameWork3D\지형</Filter>
+    </ClCompile>
+    <ClCompile Include="boneHierarchy.cpp">
+      <Filter>01. GameFrameWork3D\skinnedAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="skinnedAnimation.cpp">
+      <Filter>01. GameFrameWork3D\skinnedAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="xMeshSkinned.cpp">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="rmSkinnedMesh.cpp">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>01. GameFrameWork3D\절두체 컬링</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteManager.cpp">
+      <Filter>01. GameFrameWork3D\스프라이트</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>01. GameFrameWork3D\파티클</Filter>
+    </ClCompile>
+    <ClCompile Include="particleEmitter.cpp">
+      <Filter>01. GameFrameWork3D\파티클</Filter>
+    </ClCompile>
+    <ClCompile Include="quadParticle.cpp">
+      <Filter>01. GameFrameWork3D\파티클</Filter>
+    </ClCompile>
+    <ClCompile Include="quadParticleEmitter.cpp">
+      <Filter>01. GameFrameWork3D\파티클</Filter>
+    </ClCompile>
+    <ClCompile Include="deviceManager.cpp">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>portal\player</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorialMap.cpp">
+      <Filter>portal\map</Filter>
+    </ClCompile>
+    <ClCompile Include="portalGun.cpp">
+      <Filter>portal\portalGun</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>portal\object</Filter>
+    </ClCompile>
+    <ClCompile Include="switchButton.cpp">
+      <Filter>portal\object</Filter>
+    </ClCompile>
+    <ClCompile Include="boxDropper.cpp">
+      <Filter>portal\object</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>portal\object</Filter>
+    </ClCompile>
+    <ClCompile Include="door.cpp">
+      <Filter>portal\object</Filter>
+    </ClCompile>
+    <ClCompile Include="elevator.cpp">
+      <Filter>portal\object</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial1Collision.cpp">
+      <Filter>portal\scene\튜토리얼1</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorialScene_1.cpp">
+      <Filter>portal\scene\튜토리얼1</Filter>
+    </ClCompile>
+    <ClCompile Include="portalBullet.cpp">
+      <Filter>portal\portalGun</Filter>
+    </ClCompile>
+    <ClCompile Include="portal.cpp">
+      <Filter>portal\portalGun</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorialMap2.cpp">
+      <Filter>portal\map</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorialScene_2.cpp">
+      <Filter>portal\scene\튜토리얼2</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial2Collision.cpp">
+      <Filter>portal\scene\튜토리얼2</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>portal\map</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1Scene.cpp">
+      <Filter>portal\scene\스테이지1</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1Collision.cpp">
+      <Filter>portal\scene\스테이지1</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2Collision.cpp">
+      <Filter>portal\scene\스테이지2</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2Scene.cpp">
+      <Filter>portal\scene\스테이지2</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>portal\map</Filter>
+    </ClCompile>
+    <ClCompile Include="panelMover.cpp">
+      <Filter>portal\object</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>portal\map</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3Scene.cpp">
+      <Filter>portal\scene\스테이지3</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3Collision.cpp">
+      <Filter>portal\scene\스테이지3</Filter>
+    </ClCompile>
+    <ClCompile Include="laser.cpp">
+      <Filter>portal\object\laser</Filter>
+    </ClCompile>
+    <ClCompile Include="laserCatcher.cpp">
+      <Filter>portal\object\laser</Filter>
+    </ClCompile>
+    <ClCompile Include="laserEmitter.cpp">
+      <Filter>portal\object\laser</Filter>
+    </ClCompile>
+    <ClCompile Include="laserPoint.cpp">
+      <Filter>portal\object\laser</Filter>
+    </ClCompile>
+    <ClCompile Include="mainScene.cpp">
+      <Filter>portal\scene\메인</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>01. GameFrameWork3D\매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="endingScene.cpp">
+      <Filter>portal\scene\엔딩</Filter>
+    </ClCompile>
+    <ClCompile Include="VMR9Graph.cpp">
+      <Filter>01. GameFrameWork3D\VMR9</Filter>
+    </ClCompile>
+    <ClCompile Include="menuScene.cpp">
+      <Filter>portal\scene\메뉴</Filter>
+    </ClCompile>
+    <ClCompile Include="crosshair.cpp">
+      <Filter>portal\player</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
